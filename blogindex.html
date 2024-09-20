@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aastha's Food Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+            <h1 class="text-3xl font-bold text-gray-800">Aastha's Food Blog</h1>
+            <nav>
+                <a href="#" class="text-gray-600 hover:text-gray-800 mx-4">Home</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800 mx-4">Recipes</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800 mx-4">Blog</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800 mx-4">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-cover bg-center h-96" style="background-image: url('your-hero-image.jpg');">
+        <div class="flex justify-center items-center h-full bg-black bg-opacity-50">
+            <div class="text-center">
+                <h2 class="text-white text-4xl font-bold">Delicious Vegetarian Recipes, Every Day</h2>
+                <p class="text-white mt-4 text-lg">Explore our collection of mouth-watering recipes.</p>
+                <a href="#recipes" class="mt-6 inline-block bg-green-500 text-white py-3 px-6 rounded-full">Get
+                    Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Recipes -->
+    <section id="recipes" class="py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800">Featured Recipes</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+                <!-- Recipe Card -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+
+
+                    <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                        <img src="/Users/aasthajoshi/Desktop/Blog website/images/recipe1.jpg" alt="Pav Bhaji"
+                            class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800">Pav Bhaji</h3>
+                            <p class="text-gray-600 mt-2">A delicious recipe from West India.</p>
+                            <a href="#" onclick="document.getElementById('pavbhaji-desc').classList.toggle('hidden');"
+                                class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                            <div id="pavbhaji-desc" class="hidden mt-4 text-gray-600">
+                                Pav Bhaji is a flavorful mashed vegetable curry served with buttery buns, originating
+                                from the streets of Mumbai. This dish is loved for its rich, spicy flavors and the soft,
+                                buttery buns that accompany it.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- baaki na blogs ahiya jase-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="bg-gray-100 py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800">Latest Blog Posts<br> West India</br></h2>
+            <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-6 mt-6">
+
+                <!-- Blog Post Card -->
+                <img src="/Users/aasthajoshi/Desktop/Blog website/images/Vadapav.jpg" alt="VadaPav"
+                    class="w-full h-48 object-cover">
+
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-800">Vada Pav</h3>
+                    <p class="text-gray-600 mt-2"> Bombay Special </p>
+                    <a href="#" onclick="document.getElementById('vadapav-desc').classList.toggle('hidden');"
+                        class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                    <div id="vadapav-desc" class="hidden mt-4 text-gray-600">
+                        Vada Pav, often called the Indian burger, is a spicy potato fritter stuffed in a bun. It’s a
+                        staple street food in Mumbai and loved for its simplicity and punchy flavors.
+                    </div>
+                </div>
+
+
+                <img src="/Users/aasthajoshi/Desktop/Blog website/images/dhokla.png" alt="Dabeli"
+                    class="w-full h-48 object-cover">
+
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-800">Dhokla</h3>
+                    <p class="text-gray-600 mt-2"> Gujarat Special</p>
+                    <a href="#" class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                </div>
+
+                <img src="/Users/aasthajoshi/Desktop/Blog website/images/dabeli.png" alt="VadaPav"
+                    class="w-full h-48 object-cover">
+
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-800">Dabeli</h3>
+                    <p class="text-gray-600 mt-2"> Kutchi Dabeli </p>
+                    <a href="#" onclick="document.getElementById('dabeli-desc').classList.toggle('hidden');"
+                        class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                    <div id="dabeli-desc" class="hidden mt-4 text-gray-600">
+                        Kutchi Dabeli is a tangy potato sandwich stuffed with pomegranate seeds and peanuts, originating
+                        from the Kutch region. It’s a perfect blend of sweet, spicy, and crunchy textures.
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!--SOUTH INDIA-->
+
+            <section id="blog" class="bg-gray-100 py-12">
+                <div class="container mx-auto px-4">
+                    <h2 class="text-3xl font-bold text-center text-gray-800"> South India Special </h2>
+                    <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-6 mt-6">
+
+                        <!-- Blog Post Card -->
+                        <img src="/Users/aasthajoshi/Desktop/Blog website/images/dosa.png" alt="VadaPav"
+                            class="w-full h-48 object-cover">
+
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800">Dosa</h3>
+                            <p class="text-gray-600 mt-2"> Karnatak Special </p>
+                            <a href="#" class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                        </div>
+
+                        <img src="/Users/aasthajoshi/Desktop/Blog website/images/Idli.png" alt="VadaPav"
+                            class="w-full h-48 object-cover">
+
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800">Idli</h3>
+                            <p class="text-gray-600 mt-2"> Tamilnadu Special</p>
+                            <a href="#" class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                        </div>
+
+                        <img src="/Users/aasthajoshi/Desktop/Blog website/images/meduvada.png" alt="VadaPav"
+                            class="w-full h-48 object-cover">
+
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800">Medu Vada</h3>
+                            <p class="text-gray-600 mt-2"> Crispy, fluffy and delicious donut shaped lenil fritter </p>
+                            <a href="#" class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                        </div>
+
+
+                    </div>
+                </div>
+                <!-- North India-->
+                <section id="blog" class="bg-gray-100 py-12">
+                    <div class="container mx-auto px-4">
+                        <h2 class="text-3xl font-bold text-center text-gray-800"> North India Special </h2>
+                        <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-6 mt-6">
+
+                            <!-- Blog Post Card -->
+                            <img src="/Users/aasthajoshi/Desktop/Blog website/images/chole.png" alt="VadaPav"
+                                class="w-full h-48 object-cover">
+
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-gray-800">Chole Bhature</h3>
+                                <p class="text-gray-600 mt-2">Learn the secrets to creating the perfect dish </p>
+                                <a href="#" class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                            </div>
+
+                            <img src="/Users/aasthajoshi/Desktop/Blog website/images/paratha.png" alt="VadaPav"
+                                class="w-full h-48 object-cover">
+
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-gray-800">Aloo Paratha</h3>
+                                <p class="text-gray-600 mt-2">Learn the secrets to creating the perfect dish </p>
+                                <a href="#" class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                            </div>
+
+                            <img src="/Users/aasthajoshi/Desktop/Blog website/images/dalmakhani.png" alt="VadaPav"
+                                class="w-full h-48 object-cover">
+
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-gray-800">Dal Makhani</h3>
+                                <p class="text-gray-600 mt-2">Learn the secrets to creating the perfect dish </p>
+                                <a href="#" target="_blank" rel="noopener noreferrer"
+                                    class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-6 mt-12">
+        <div class="container mx-auto px-4 text-center text-white">
+            <p class="mb-4">&copy; 2024 Aastha's Food Blog. All rights reserved.</p>
+            <div>
+                <a href="#" class="mx-2 hover:text-gray-400">Facebook</a>
+                <a href="#" class="mx-2 hover:text-gray-400">Instagram</a>
+                <a href="#" class="mx-2 hover:text-gray-400">Twitter</a>
+            </div>
+        </div>
+    </footer>
+    <!-- js file connect -->
+    <script> src = "blogscript.js" </script>>
+
+</body>
+
+</html>
