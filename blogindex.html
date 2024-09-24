@@ -23,7 +23,8 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="bg-cover bg-center h-96" style="background-image: url('your-hero-image.jpg');">
+    <section class="bg-cover bg-center h-96"
+        style="background-image: url('/Users/aasthajoshi/Desktop/Blog website/introbg.png');">
         <div class="flex justify-center items-center h-full bg-black bg-opacity-50">
             <div class="text-center">
                 <h2 class="text-white text-4xl font-bold">Delicious Vegetarian Recipes, Every Day</h2>
@@ -37,11 +38,11 @@
     <!-- Featured Recipes -->
     <section id="recipes" class="py-12">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center text-gray-800">Featured Recipes</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+            <h2 class="text-3xl font-bold text-center text-gray-900">Featured Recipes</h2>
+            <div class="flex gap-8 mt-8 overflow-x-auto">
                 <!-- Recipe Card -->
 
-                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <div class="bg-white shadow-md rounded-lg overflow-hidden flex-none w-64">
                     <img src="/Users/aasthajoshi/Desktop/Blog website/images/recipe1.jpg" alt="Pav Bhaji"
                         class="w-full h-48 object-cover">
                     <div class="p-6">
@@ -49,13 +50,130 @@
                         <p class="text-gray-600 mt-2">A delicious recipe from West India.</p>
                         <a href="#" onclick="document.getElementById('pavbhaji-desc').classList.toggle('hidden');"
                             class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
-                        <div id="pavbhaji-desc" class="hidden mt-4 text-gray-600">
-                            Pav Bhaji is a flavorful mashed vegetable curry served with buttery buns, originating
-                            from the streets of Mumbai. This dish is loved for its rich, spicy flavors and the soft,
-                            buttery buns that accompany it.
+                        <div id="pavbhaji-desc" class="hidden mt-2 text-gray-600">
+                            4 medium potatoes, 1 cup cauliflower, 1/2 cup green peas(boil until soft, mash them
+                            together)<br>Sauté Onions: Heat butter in a pan. Add finely chop onions and sauté until
+                            golden <br>Cook finely chop Tomatoes and
+                            <br>Spices: Add ginger-garlic paste and chopped tomatoes. Cook until soft. <br>Mix in pav
+                            pav bhaji, masala, chili powder, turmeric, and salt. <br>Add the mashed veggies to the pan
+                            and cook, mashing further with the back of a spoon. <br>Add water as needed for desired
+                            consistency.
+                            <br>Let it simmer for 10 minutes. Stir in more butter for extra richness.
+                            <br>Toast Pav: Heat butter on a pan and toast the pav buns until golden.
+                            Serve: Garnish the bhaji with lemon juice and coriander. Serve hot with the toasted pav!
+
                         </div>
                     </div>
                 </div>
+                <!--Pani Puri-->
+
+                <div class="bg-white shadow-md rounded-lg overflow-hidden flex-none w-64">
+                    <img src="/Users/aasthajoshi/Desktop/Blog website/images/panipuri.png" alt="Pav Bhaji"
+                        class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800">Pani Puri</h3>
+                        <p class="text-gray-600 mt-2">A delicious recipe from West India.</p>
+                        <a href="#" onclick="document.getElementById('panipuri-desc').classList.toggle('hidden');"
+                            class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                        <div id="panipuri-desc" class="hidden mt-4 text-gray-600">
+                            <b>Prepare Dough for puri</b>: Combine semolina, flour, and water into a stiff dough. Roll
+                            into small
+                            circles and deep fry until crispy. Set aside.
+
+                            <br><b>Make Pani</b>: Blend mint, coriander, green chilies, and ginger into a paste. Mix
+                            with cold
+                            water, tamarind paste, cumin powder, chaat masala, and salt. Adjust seasoning. Refrigerate.
+
+                            <br><b>Prepare Filling</b>: Mix mashed potatoes, boiled chickpeas, chaat masala, and salt.
+
+                            <br><b>Assemble</b>: Crack a hole in each puri, stuff with the filling, and dip into the
+                            chilled
+                            pani. Serve immediately!
+                        </div>
+                    </div>
+                </div>
+
+                <!--Littichokha-->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden flex-none w-64">
+                    <img src="/Users/aasthajoshi/Desktop/Blog website/images/litichokha.png" alt="littichokha"
+                        class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800">Litti Chokha</h3>
+                        <p class="text-gray-600 mt-2">A delicious recipe from West India.</p>
+                        <a href="#" onclick="document.getElementById('litichokha-desc').classList.toggle('hidden');"
+                            class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                        <div id="litichokha-desc" class="hidden mt-4 text-gray-600">
+                            <b>Ingredients</b>: Wheat flour, ghee, ajwain (carom seeds), salt, water, sattu (roasted
+                            gram flour), garlic, mustard oil, lemon juice, green chilies, and spices.
+                            <br><b>Method</b>: Knead the dough with flour, water, ajwain, and ghee. Stuff with sattu
+                            mixture
+                            flavored with mustard oil, garlic, chilies, and spices. Roast on an open flame or bake in
+                            the oven.
+                            <b><br>Chokha</b>: Roasted brinjal (eggplant), mashed potatoes, tomatoes, mustard oil,
+                            garlic, green chilies, salt. Mix everything after roasting.
+
+                        </div>
+                    </div>
+                </div>
+
+                <!--Samosa-->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden flex-none w-64">
+                    <img src="/Users/aasthajoshi/Desktop/Blog website/images/samosa.png" alt="Pav Bhaji"
+                        class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800">samosa</h3>
+                        <p class="text-gray-600 mt-2">A delicious recipe from West India.</p>
+                        <a href="#" onclick="document.getElementById('samosa-desc').classList.toggle('hidden');"
+                            class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                        <div id="samosa-desc" class="hidden mt-4 text-gray-600">
+                            <b>Ingredients</b>: Potatoes, green peas, flour, ghee, cumin seeds, green chilies, spices.
+                            <br><b>Method</b>: Make the dough with flour, ghee, and water. Boil and mash potatoes,
+                            saute with peas and spices. Fill the dough with the mixture, shape into triangles, and
+                            deep-fry.
+
+                        </div>
+                    </div>
+                </div>
+
+                <!--Uttapam-->
+
+                <div class="bg-white shadow-md rounded-lg overflow-hidden flex-none w-64">
+                    <img src="/Users/aasthajoshi/Desktop/Blog website/images/utthapam.png" alt="Pav Bhaji"
+                        class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800">utthapam</h3>
+                        <p class="text-gray-600 mt-2">A delicious recipe from West India.</p>
+                        <a href="#" onclick="document.getElementById('utthapam-desc').classList.toggle('hidden');"
+                            class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                        <div id="utthapam-desc" class="hidden mt-4 text-gray-600">
+                            <b>Ingredients</b>: Dosa batter (rice and urad dal), vegetables (onions, tomatoes, bell
+                            peppers), coriander, salt, oil.
+                            <br><b>Method</b>: Spread batter on a hot pan, sprinkle with chopped veggies, and cook
+                            till golden on both sides.
+                        </div>
+                    </div>
+                </div>
+
+                <!--Momos-->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden flex-none w-64">
+                    <img src="/Users/aasthajoshi/Desktop/Blog website/images/momos.png" alt="Momos"
+                        class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800">Momos</h3>
+                        <p class="text-gray-600 mt-2">A delicious recipe from West India.</p>
+                        <a href="#" onclick="document.getElementById('momos-desc').classList.toggle('hidden');"
+                            class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                        <div id="momos-desc" class="hidden mt-4 text-gray-600">
+                            <b>Momos Ingredients</b>: Flour, cabbage, carrots, onions, garlic, ginger, soy sauce.
+                            - <br><b>Method</b>: Knead flour dough, fill with stir-fried veggie mixture. Steam the
+                            dumplings.
+                            - <br><b>Red Chutney</b>: Blend tomatoes, red chilies, garlic, and salt. Cook until
+                            thickened.
+
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
         </div>
@@ -64,12 +182,11 @@
 
     <!--dishes-->
 
-    <section id="blog" class="bg-gray-100 py-12">
+    <section id="blog" class="bg-gray-300 py-12">
         <div class="container mx-auto px-4">
             <h2 class="text-3xl font-bold text-center text-gray-800">Latest Blog Posts<br> Indian Dishes</br></h2>
             <div class="flex gap-6 mt-6 overflow-x-auto">
                 <!-- Blog Post Card -->
-
 
                 <!--Vadapav-->
                 <div class="bg-white shadow-md rounded-lg overflow-hidden flex-none w-64">
@@ -78,13 +195,17 @@
                     <div class="p-6">
                         <h3 class="text-xl font-bold text-gray-800">Vada Pav</h3>
                         <p class="text-gray-600 mt-2">Bombay Special</p>
-                        <a href="#" class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
-                        <div id="vadapav-desc" class="hidden mt-4 text-gray-600">
-                            It’s a perfect blend of sweet, spicy, and crunchy textures.
+                        <a href="#" onclick="document.getElementById('Vadapav-desc').classList.toggle('hidden');"
+                            class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                        <div id="Vadapav-desc" class="hidden mt-4 text-gray-600">
+                            <b>Ingredients</b>: Potatoes, besan (gram flour), garlic, green chilies, pav buns, tamarind
+                            chutney, green chutney.
+                            <br><b>Method</b>: Boil and mash potatoes with garlic and spices. Coat in gram flour batter,
+                            fry into vadas. Serve in a pav with chutneys.
+
                         </div>
                     </div>
                 </div>
-
 
                 <!--Dhokla-->
                 <div class="bg-white shadow-md rounded-lg overflow-hidden flex-none w-64">
@@ -96,13 +217,13 @@
                         <a href="#" onclick="document.getElementById('dhokla-desc').classList.toggle('hidden');"
                             class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
                         <div id="dhokla-desc" class="hidden mt-4 text-gray-600">
-                            It’s a perfect blend of sweet, spicy, and crunchy textures.
+                            <b>Ingredients</b>: Gram flour (besan), yogurt, eno, green chilies, ginger, sugar.
+                            <br><b>Method</b>: Mix gram flour, yogurt, and spices. Add eno and steam the batter. Temper
+                            with mustard seeds, curry leaves, and chilies.
+
                         </div>
                     </div>
                 </div>
-
-
-                <!--Dabeli-->
 
                 <div class="bg-white shadow-md rounded-lg overflow-hidden flex-none w-64">
                     <img src="/Users/aasthajoshi/Desktop/Blog website/images/dabeli.png" alt="VadaPav"
@@ -114,7 +235,33 @@
                         <a href="#" onclick="document.getElementById('dabeli-desc').classList.toggle('hidden');"
                             class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
                         <div id="dabeli-desc" class="hidden mt-4 text-gray-600">
-                            It’s a perfect blend of sweet, spicy, and crunchy textures.
+                            <b>Ingredients</b>: Dabeli masala, boiled potatoes, tamarind chutney, sev, pomegranate, pav
+                            buns.
+                            <br><b>Method</b>: Mix mashed potatoes with dabeli masala. Stuff in a pav, garnish with
+                            chutneys, sev, and pomegranate seeds.
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--Daal baati-->
+
+                <div class="bg-white shadow-md rounded-lg overflow-hidden flex-none w-64">
+                    <img src="/Users/aasthajoshi/Desktop/Blog website/images/Daalbaati.png" alt="VadaPav"
+                        class="w-full h-48 object-cover">
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800">Daal Baati</h3>
+                        <p class="text-gray-600 mt-2"> Rajasthan Special </p>
+                        <a href="#" onclick="document.getElementById('Daalbaati-desc').classList.toggle('hidden');"
+                            class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                        <div id="Daalbaati-desc" class="hidden mt-4 text-gray-600">
+                            <b>Baati</b>: Wheat flour, ghee, ajwain, salt.
+                            <br><b>Method</b>: Knead dough, shape into balls, bake until crisp.
+                            <br><b>Daal</b>: Mix dal (lentils) with cumin, mustard seeds, garlic, ghee, and spices.
+                            Serve with baati and melted ghee.
+
                         </div>
 
                     </div>
@@ -122,7 +269,6 @@
 
 
                 <!--Dosa-->
-
                 <div class="bg-white shadow-md rounded-lg overflow-hidden flex-none w-64">
                     <img src="/Users/aasthajoshi/Desktop/Blog website/images/dosa.png" alt="Dosa"
                         class="w-full h-48 object-cover">
@@ -130,98 +276,246 @@
                     <div class="p-6">
                         <h3 class="text-xl font-bold text-gray-800">Dosa</h3>
                         <p class="text-gray-600 mt-2"> Karnatak Special </p>
-                        <a href="#" class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
-                        <div id="dosa-desc" class="hidden mt-4 text-gray-600"></div>
-                        It’s a perfect blend of sweet, spicy, and crunchy textures.
+                        <a href="#" onclick="document.getElementById('dosa-desc').classList.toggle('hidden');"
+                            class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                        <div id="dosa-desc" class="hidden mt-4 text-gray-600">
+                            <b>Ingredients</b>: Dosa batter (rice and urad dal), oil.
+                            <b><br>Method</b>: Spread batter thinly on a hot pan, cook until crisp, and serve with
+                            chutney and sambar.
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--Idli-->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden flex-none w-64">
+                    <img src="/Users/aasthajoshi/Desktop/Blog website/images/Idli.png" alt="Idli"
+                        class="w-full h-48 object-cover">
+
+                    <div class="p-6">
+
+                        <h3 class="text-xl font-bold text-gray-800">Idli</h3>
+                        <p class="text-gray-600 mt-2"> Tamilnadu Special</p>
+                        <a href="#" onclick="document.getElementById('Idli-desc').classList.toggle('hidden');"
+                            class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                        <div id="Idli-desc" class="hidden mt-4 text-gray-600">
+                            <b>Ingredients</b>: Rice and urad dal batter, oil.
+                            <br><b>Method</b>: Steam batter in idli molds until soft and fluffy. Serve with chutney
+                            and sambar.
+
+                        </div>
+                    </div>
+                </div>
+
+                <!--Medu Vada-->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden flex-none w-64">
+                    <img src="/Users/aasthajoshi/Desktop/Blog website/images/meduvada.png" alt="meduvada"
+                        class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800">Medu Vada</h3>
+                        <p class="text-gray-600 mt-2"> Kerala Special
+                        </p>
+                        <a href="#" onclick="document.getElementById('meduvada-desc').classList.toggle('hidden');"
+                            class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                        <div id="meduvada-desc" class="hidden mt-4 text-gray-600">
+                            <b>Ingredients</b>: Urad dal, green chilies, curry leaves, cumin seeds, salt.
+                            <br><b>Method</b>: Grind soaked urad dal into a paste. Add spices, shape into doughnuts, and
+                            deep-fry.
+                        </div>
+                    </div>
+                </div>
+
+                <!--Chole Bhature-->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden flex-none w-64">
+                    <img src="/Users/aasthajoshi/Desktop/Blog website/images/chole.png" alt="Chole"
+                        class="w-full h-48 object-cover">
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800">Chole Bhature</h3>
+                        <p class="text-gray-600 mt-2"> Delhi Special </p>
+                        <a href="#" onclick="document.getElementById('chole-desc').classList.toggle('hidden');"
+                            class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                        <div id="chole-desc" class="hidden mt-4 text-gray-600">
+                            <b>Chole</b>: Chickpeas, onions, tomatoes, garlic, ginger, spices.
+                            <br><b>Method</b>: Cook soaked chickpeas with a spicy tomato-onion gravy.
+                            <br><b>Bhatura</b>: Flour, yogurt, salt.
+                            <br><b>Method</b>: Knead flour with yogurt, rest the dough, and deep-fry.
+
+                        </div>
+                    </div>
+                </div>
+
+                <!--Paratha-->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden flex-none w-64">
+                    <img src="/Users/aasthajoshi/Desktop/Blog website/images/paratha.png" alt="Paratha"
+                        class="w-full h-48 object-cover">
+
+                    <div class="p-6">
+
+                        <h3 class="text-xl font-bold text-gray-800">Aloo Paratha</h3>
+                        <p class="text-gray-600 mt-2"> Punjab Special</p>
+                        <a href="#" onclick="document.getElementById('paratha-desc').classList.toggle('hidden');"
+                            class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                        <div id="paratha-desc" class="hidden mt-4 text-gray-600">
+                            <b>Ingredients</b>: Wheat flour, boiled potatoes, green chilies, coriander, spices.
+                            <br><b>Method</b>: Knead dough, stuff with mashed potatoes mixed with spices. Roll and cook
+                            on a hot griddle with ghee.
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--Dal Makhni-->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden flex-none w-64">
+                    <img src="/Users/aasthajoshi/Desktop/Blog website/images/dalmakhani.png" alt="dalmakhani"
+                        class="w-full h-48 object-cover">
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800">Dal Makhani</h3>
+                        <p class="text-gray-600 mt-2"> Haryana Special </p>
+                        <a href="#" onclick="document.getElementById('dalmakhani-desc').classList.toggle('hidden');"
+                            class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                        <div id="dalmakhani-desc" class="hidden mt-4 text-gray-600">
+                            <b>Ingredients</b>: Black lentils (urad dal), kidney beans, tomatoes, cream, garlic, butter,
+                            spices.
+                            <br><b>Method</b>: Cook dal with tomatoes and spices, add cream and butter. Slow cook for a
+                            rich flavor.
+
+                        </div>
                     </div>
                 </div>
             </div>
 
 
-            <!--Idli-->
-            <div class="bg-white shadow-md rounded-lg overflow-hidden flex-none w-64">
-                <img src="/Users/aasthajoshi/Desktop/Blog website/images/Idli.png" alt="Idli"
-                    class="w-full h-48 object-cover">
+        </div>
+    </section>
 
-                <div class="p-6">
-                    <h3 class="text-xl font-bold text-gray-800">Idli</h3>
-                    <p class="text-gray-600 mt-2"> Tamilnadu Special</p>
-                    <a href="#" class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
-                    <div id="idli-desc" class="hidden mt-4 text-gray-600"></div>
-                    It’s a perfect blend of sweet, spicy, and crunchy textures.
+    <!--Mexican-->
+
+    <section id="recipes" class="py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800">Vegetarian dishes from around the globe
+            </h2>
+            <div class="flex gap-6 mt-6 overflow-x-auto">
+                <!-- Recipe Card -->
+
+                <div class="bg-white shadow-md rounded-lg overflow-hidden flex-none w-64">
+                    <img src="/Users/aasthajoshi/Desktop/Blog website/images/burritobowl.png" alt="Burrito"
+                        class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800">Veggie Bowl</h3>
+                        <p class="text-gray-600 mt-2">Mexican Burrito Bowl</p>
+                        <a href="#" onclick="document.getElementById('burritobowl-desc').classList.toggle('hidden');"
+                            class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                        <div id="burritobowl-desc" class="hidden mt-4 text-gray-600">
+                            Pav Bhaji is a flavorful mashed vegetable curry served with buttery buns,
+                            originating
+                            from the streets of Mumbai. This dish is loved for its rich, spicy flavors and
+                            the soft,
+                            buttery buns that accompany it.
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
 
-
-        <!--Medu Vada-->
-        <div class="bg-white shadow-md rounded-lg overflow-hidden flex-none w-64">
-            <img src="/Users/aasthajoshi/Desktop/Blog website/images/meduvada.png" alt="meduvada"
-                class="w-full h-48 object-cover">
-
-            <div class="p-6">
-                <h3 class="text-xl font-bold text-gray-800">Medu Vada</h3>
-                <p class="text-gray-600 mt-2"> Kerala Special
-                </p>
-                <a href="#" class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
-                <div id="meduvada-desc" class="hidden mt-4 text-gray-600"></div>
-                It’s a perfect blend of sweet, spicy, and crunchy textures.
-            </div>
-        </div>
-        </div>
-
-
-        <!--Chole Bhature-->
-        <div class="bg-white shadow-md rounded-lg overflow-hidden flex-none w-64">
-            <img src="/Users/aasthajoshi/Desktop/Blog website/images/chole.png" alt="VadaPav"
-                class="w-full h-48 object-cover">
-
-            <div class="p-6">
-                <h3 class="text-xl font-bold text-gray-800">Chole Bhature</h3>
-                <p class="text-gray-600 mt-2">Delhi Special </p>
-                <a href="#" class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
-                <div id="chole-desc" class="hidden mt-4 text-gray-600">
-                    It’s a perfect blend of sweet, spicy, and crunchy textures.
+                <!--cauli tacos-->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden flex-none w-64">
+                    <img src="/Users/aasthajoshi/Desktop/Blog website/images/caulitacos.png" alt="tacos"
+                        class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800">Tacos</h3>
+                        <p class="text-gray-600 mt-2">Vegan Cauliflower Tacos</p>
+                        <a href="#" onclick="document.getElementById('caulitacos-desc').classList.toggle('hidden');"
+                            class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                        <div id="caulitacos-desc" class="hidden mt-4 text-gray-600">
+                            Pav Bhaji is a flavorful mashed vegetable curry served with buttery buns,
+                            originating
+                            from the streets of Mumbai. This dish is loved for its rich, spicy flavors and
+                            the soft,
+                            buttery buns that accompany it.
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
 
-
-
-        <!--Paratha-->
-        <div class="bg-white shadow-md rounded-lg overflow-hidden flex-none w-64">
-            <img src="/Users/aasthajoshi/Desktop/Blog website/images/paratha.png" alt="VadaPav"
-                class="w-full h-48 object-cover">
-
-            <div class="p-6">
-                <h3 class="text-xl font-bold text-gray-800">Aloo Paratha</h3>
-                <p class="text-gray-600 mt-2"> Punjab </p>
-                <a href="#" class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
-                <div id="paratha-desc" class="hidden mt-4 text-gray-600">
-                    It’s a perfect blend of sweet, spicy, and crunchy textures.
+                <!--  Italian Pizza -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden flex-none w-64">
+                    <img src="/Users/aasthajoshi/Desktop/Blog website/images/ipizzas.png" alt="pizza"
+                        class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800">Pizza</h3>
+                        <p class="text-gray-600 mt-2">Neapolitan Italian Pizza</p>
+                        <a href="#" onclick="document.getElementById('ipizzas-desc').classList.toggle('hidden');"
+                            class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                        <div id="ipizzas-desc" class="hidden mt-4 text-gray-600">
+                            Pav Bhaji is a flavorful mashed vegetable curry served with buttery buns,
+                            originating
+                            from the streets of Mumbai. This dish is loved for its rich, spicy flavors and
+                            the soft,
+                            buttery buns that accompany it.
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
 
-
-        <!--Dal Makhni-->
-        <div class="bg-white shadow-md rounded-lg overflow-hidden flex-none w-64">
-            <img src="/Users/aasthajoshi/Desktop/Blog website/images/dalmakhani.png" alt="VadaPav"
-                class="w-full h-48 object-cover">
-
-            <div class="p-6">
-                <h3 class="text-xl font-bold text-gray-800">Dal Makhani</h3>
-                <p class="text-gray-600 mt-2"> Haryana </p>
-                <a href="#" target="_blank" rel="noopener noreferrer"
-                    class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
-                <div id="dalmakhani-desc" class="hidden mt-4 text-gray-600">
-                    It’s a perfect blend of sweet, spicy, and crunchy textures.
+                <!--Korean Gamjajeon-->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden flex-none w-64">
+                    <img src="/Users/aasthajoshi/Desktop/Blog website/images/gamjajeon.png" alt="pizza"
+                        class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800">Pancakes</h3>
+                        <p class="text-gray-600 mt-2">Korean Potato Pancakes</p>
+                        <a href="#" onclick="document.getElementById('gamjajeon-desc').classList.toggle('hidden');"
+                            class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                        <div id="gamjajeon-desc" class="hidden mt-4 text-gray-600">
+                            Pav Bhaji is a flavorful mashed vegetable curry served with buttery buns,
+                            originating
+                            from the streets of Mumbai. This dish is loved for its rich, spicy flavors and
+                            the soft,
+                            buttery buns that accompany it.
+                        </div>
+                    </div>
                 </div>
+
+                <!--Japanese Poke Bowl-->
+
+                <div class="bg-white shadow-md rounded-lg overflow-hidden flex-none w-64">
+                    <img src="/Users/aasthajoshi/Desktop/Blog website/images/pokebowl.png" alt="pizza"
+                        class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800">Poke Bowl</h3>
+                        <p class="text-gray-600 mt-2">Japanese Vegan Poke Bowl</p>
+                        <a href="#" onclick="document.getElementById('pokebowl-desc').classList.toggle('hidden');"
+                            class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                        <div id="pokebowl-desc" class="hidden mt-4 text-gray-600">
+                            Pav Bhaji is a flavorful mashed vegetable curry served with buttery buns,
+                            originating
+                            from the streets of Mumbai. This dish is loved for its rich, spicy flavors and
+                            the soft,
+                            buttery buns that accompany it.
+                        </div>
+                    </div>
+                </div>
+
+                <!--Spanish Potato-->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden flex-none w-64">
+                    <img src="/Users/aasthajoshi/Desktop/Blog website/images/potato.png" alt="pizza"
+                        class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800">Patatas Bravas</h3>
+                        <p class="text-gray-600 mt-2">Spanish Patatas Bravas </p>
+                        <a href="#" onclick="document.getElementById('potato-desc').classList.toggle('hidden');"
+                            class="inline-block mt-4 text-green-500 hover:underline">Read More</a>
+                        <div id="potato-desc" class="hidden mt-4 text-gray-600">
+                            Pav Bhaji is a flavorful mashed vegetable curry served with buttery buns,
+                            originating
+                            from the streets of Mumbai. This dish is loved for its rich, spicy flavors and
+                            the soft,
+                            buttery buns that accompany it.
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-        </div>
-
-
         </div>
     </section>
 
@@ -238,7 +532,6 @@
             </div>
         </div>
     </footer>
-
     <!-- js file connect -->
     <script> src = "blogscript.js" </script>>
 
